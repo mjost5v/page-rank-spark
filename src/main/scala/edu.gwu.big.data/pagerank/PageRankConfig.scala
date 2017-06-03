@@ -1,7 +1,10 @@
 package edu.gwu.big.data.pagerank
 
 /**
-  * Created by ***REMOVED*** on 4/4/17.
+  * Config class for the Spark job
+  * @param runLocal Flag to run locally
+  * @param numIterations Number of iterations to run for PageRank
+  * @param inputPath The input path to read
   */
 case class PageRankConfig(runLocal: Boolean = PageRankConfig.DEFAULT_BUILD_LOCAL,
                           numIterations: Int = PageRankConfig.DEFAULT_NUM_ITERATIONS,

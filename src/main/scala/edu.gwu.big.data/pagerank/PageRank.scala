@@ -5,6 +5,9 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 import scala.collection.mutable.ListBuffer
 
+/**
+  * Runs the PageRank algorithm on Spark
+  */
 object PageRank {
   val APP_NAME = "PageRank"
 
